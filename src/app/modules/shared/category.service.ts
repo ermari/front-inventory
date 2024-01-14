@@ -46,7 +46,7 @@ export class CategoryService {
   }
 
   /**
-   * update categorie
+   * buscar categorie por id
    */
   getCategorieById(id: any){
     const endpoint = `${base_url}/categories/ ${id}`;
